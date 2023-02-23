@@ -5,10 +5,12 @@ import vuetify from 'vite-plugin-vuetify'
 const { resolve } = createResolver(import.meta.url);
 
 export default defineNuxtConfig({
+
   css: [
     "vuetify/lib/styles/main.sass",
     "@mdi/font/css/materialdesignicons.min.css",
     "bootstrap/dist/css/bootstrap.css",
+    "~/assets/css/orderpage.css",
   ],
   build: {
     transpile: ["vuetify"],
@@ -45,5 +47,5 @@ export default defineNuxtConfig({
     shim: false,
   },
 
-  
+
 });

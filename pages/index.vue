@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <V-Container>
+    <V-Container fluid>
         <orderTable :orders="orders.rows"/>
     </V-Container>
   </div>

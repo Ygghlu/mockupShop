@@ -1,0 +1,9 @@
+.v-card--reveal {
+    bottom: 0;
+    opacity: 1 !important;
+    position: static;
+    max-width: 75%;
+    margin-left: 6;
+
+  }
+

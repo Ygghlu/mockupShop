@@ -3,14 +3,18 @@
 <template>
     <v-app>
         <v-layout>
-            <v-app-bar border color="primary" density="compact">
-                <v-app-bar-title color="white">
-                    <NuxtLink to="/">Database</NuxtLink>
-                </v-app-bar-title>
+            <v-app-bar border color="blue-accent-3" density="compact">
+                        <v-app-bar-title color="black">
+                            <v-btn icon>
+                        <NuxtLink to="/">Home</NuxtLink>
+                    </v-btn></v-app-bar-title>
+                        
+                
 
             </v-app-bar>
 
             <v-main>
+
                 <v-container fluid>
                     <slot />
 
